@@ -7,8 +7,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/imvinay10",
-  resume:
-    "https://raw.githubusercontent.com/imvinay10/Personal/main/Vinay%20Mahajan%20SDE.pdf",
+  resume:"https://raw.githubusercontent.com/imvinay10/Personal/main/Vinay%20Mahajan%20SDE.pdf",
   linkedin: "https://www.linkedin.com/in/vinay-mahajan10/",
   insta: "https://www.instagram.com/i_m.vinay/",
 };
@@ -257,21 +256,6 @@ export const projects = [
     tags: ["Java", "Andoird Studio"],
     category: "android app",
     github: "https://github.com/imvinay10/MediaCompressor-master",
-    // webapp: "https://podstream.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Vinay Mahajan",
-    //     img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fvinay-mahajan10%3Ftrk%3Dpublic_profile_browsemap&psig=AOvVaw2vPtdc9iGwq57-tcyKrifi&ust=1706031262360000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDN6vDD8YMDFQAAAAAdAAAAABAD",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/rishavchanda/",
-    //   },
-    //   // {
-    //   //   name: "Upasana Chaudhuri",
-    //   //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //   //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //   //   github: "https://github.com/upasana0710",
-    //   // },
-    // ],
   },
   {
     id: 1,
@@ -290,8 +274,27 @@ export const projects = [
       "NodeMailer",
     ],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    // webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/imvinay10/Web-Mining-to-detect-online-Spread-of-Terrorrism/tree/main/terrorism",
+  },
+  {
+    id: 1,
+    title: "React Pocket Notes",
+    date: "April 2024 - April 2024",
+    description:
+      "It's time to streamline your note-taking experience with Pocket Notes, your innovative platform for organizing ideas. Your thoughts can be effortlessly organized, ideas can be brainstormed, and tasks can be managed effectively with Pocket Notes. Featuring a sleek and user-friendly interface, the application ensures optimal usability across multiple platforms.",
+    image:
+      "https://raw.githubusercontent.com/imvinay10/React-Pocket-Notes/main/Screenshots/Screenshot%202024-04-27%20171739.png",
+    tags: [
+      "React Js",
+      "LocalStorage",
+      "HTML",
+      "CSS",
+      "JSON",
+      "Device-agnostic"
+    ],
+    category: "web app",
+    github: "https://github.com/imvinay10/React-Pocket-Notes",
+    webapp: "https://react-pocket-notes-vinay.vercel.app/",
   },
   {
     id: 2,
@@ -304,7 +307,6 @@ export const projects = [
     tags: ["NodeJs", "ExpressJs", "MongoDb", "Postman", "React", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/imvinay10/myContactsApp",
-    // webapp: "https://brain-tumor.netlify.app/",
   },
 
   {
@@ -316,9 +318,8 @@ export const projects = [
     image:
       "https://github.com/imvinay10/filessharing/raw/main/filesharing.png",
     tags: ["NodeJs", "ExpressJs", "MongoDb", "Postman", "React", "HTML", "CSS"],
-    category: "micro-projects",
+    category: "web app",
     github: "https://github.com/imvinay10/filessharing",
-    // webapp: "https://brain-tumor.netlify.app/",
   },
   {
     id: 2,
@@ -347,6 +348,19 @@ export const projects = [
     webapp: "https://main--celebrated-fairy-992872.netlify.app/",
   },
   {
+    id: 13,
+    title: "Calculator",
+    date: "Nov 2023 - Nov 2023",
+    description:
+      "Basic calculator app micro-project using JavaScript & HTML/CSSc",
+    image:
+      "https://raw.githubusercontent.com/imvinay10/mirco-project-4/main/Screenshot.png",
+    tags: ["JavaScript", "HTML", "CSS"],
+    category: "micro-projects",
+    github: "https://github.com/imvinay10/mirco-project-4",
+    // webapp: "https://rock-paper-scissor-thegame.netlify.app/",
+  },
+  {
     id: 12,
     title: "Rock-Paper-Sessior Game",
     date: "Feb 2024 - Feb 2024",
@@ -355,8 +369,21 @@ export const projects = [
     image:
       "https://github.com/imvinay10/Rock-Paper-Scissor/blob/master/rock-paper-sessior%20ss.png?raw=true",
     tags: ["JavaScript", "HTML", "CSS"],
-    category: "micro-projects",
+    category: "web app",
     github: "https://github.com/imvinay10/Rock-Paper-Scissor",
     webapp: "https://rock-paper-scissor-thegame.netlify.app/",
+  },
+  {
+    id: 15,
+    title: "React Movie App",
+    date: "Feb 2024 - Feb 2024",
+    description:
+      "My Movie App powered by ReactJS and OMDBAPI! This dynamic web application lets you effortlessly search for movies by their titles and fetches comprehensive information about each movie from OMDBAPI. With a user-friendly interface, you can explore details like the plot, cast, ratings, release year, and more. Clicking on a movie poster reveals detailed information, allowing you to dive deeper into your favorite films. Experience seamless movie browsing and discovery with this intuitive and engaging Movie App!",
+    image:
+      "https://raw.githubusercontent.com/imvinay10/Movie-App/main/Screenshot.png",
+    tags: ["ReactJs","JavaScript", "HTML", "CSS", "JSON", "APIs"],
+    category: "web app",
+    github: "https://github.com/imvinay10/Movie-App",
+    webapp: "https://movie-searching-webapp.vercel.app/",
   },
 ];
