@@ -14,6 +14,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import { useCommonStore } from "./stores/commonStore.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -22,18 +23,18 @@ const Body = styled.div`
 `
 
 const Wrapper = styled.div`
-  background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+  background: linear-gradient(38.73deg, rgba(0, 204, 204, 0.15) 0%, rgba(5, 47, 38, 0) 50%), linear-gradient(141.27deg, rgba(29, 113, 8, 0) 50%, rgba(7, 93, 96, 0.15) 100%);
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const commonStore = useCommonStore()
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  console.log(commonStore.darkMode)
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+    <ThemeProvider theme={commonStore.darkMode ? darkTheme : lightTheme}>
       <Router >
-        <Navbar />
+        <Navbar setDarkMode={commonStore.setDarkMode} />
         <Body>
           <HeroSection />
           <Wrapper>
