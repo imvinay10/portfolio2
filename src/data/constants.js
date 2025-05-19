@@ -4,7 +4,7 @@ export const Bio = {
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/imvinay10",
-    resume: "https://raw.githubusercontent.com/imvinay10/Personal/main/Vinay%20Mahajan%20SDE.pdf",
+    resume: require('../assets/VinayMahajan-20250414.pdf'),
     linkedin: "https://www.linkedin.com/in/vinay-mahajan10/",
     insta: "https://www.instagram.com/i_m.vinay/",
 };
