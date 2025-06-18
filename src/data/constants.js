@@ -4,7 +4,7 @@ export const Bio = {
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/imvinay10",
-    resume: require('../assets/VinayMahajan_CV.pdf'),
+    resume: require("../assets/VinayMahajan_CV.pdf"),
     linkedin: "https://www.linkedin.com/in/vinaymahajan01/",
     insta: "https://www.instagram.com/i_m.vinay/",
 };
@@ -219,7 +219,6 @@ export const experiences = [
     },
 ];
 
-
 export const education = [
     {
         id: 0,
@@ -247,6 +246,30 @@ export const education = [
 ];
 
 export const projects = [
+    {
+        id: 0,
+        title: "Velocity Runner – 3D Endless Runner with React & Three.js",
+        date: "May 2025",
+        description:
+            "Velocity Runner is a fully browser-based 3D endless runner game built entirely from scratch using React (TypeScript) and Three.js, without relying on any external game engine. The project demonstrates how modern frontend frameworks can be combined with WebGL to create immersive, high-performance interactive experiences directly in the browser. It features smooth third-person player controls, physics-based jumping, and dynamic camera behavior, all powered by a modular and scalable architecture. Character animations are handled using GLTFLoader and AnimationMixer, allowing for fluid transitions between running and jumping. Procedural enemy generation and real-time collision detection bring the game world to life, while custom lighting and atmospheric effects add depth and visual polish. Velocity Runner serves as a creative exploration into the possibilities of Web3D, proving that frontend development can go far beyond forms and dashboards to power real-time, interactive storytelling, data visualization, and next-gen product experiences.",
+        image: require('../images/project/velocity runner.png'),
+        tags: ["React", "Three.js", "TypeScript", "WebGL", "GLTF", "CSS"],
+        category: "web app",
+        github: "https://github.com/imvinay10/velocity-runner",
+        webapp: "https://collition-runner.vercel.app/",
+    },
+    {
+        id: 15,
+        title: "React Movie App",
+        date: "Feb 2024 - Feb 2024",
+        description:
+            "My Movie App powered by ReactJS and OMDBAPI! This dynamic web application lets you effortlessly search for movies by their titles and fetches comprehensive information about each movie from OMDBAPI. With a user-friendly interface, you can explore details like the plot, cast, ratings, release year, and more. Clicking on a movie poster reveals detailed information, allowing you to dive deeper into your favorite films. Experience seamless movie browsing and discovery with this intuitive and engaging Movie App!",
+        image: "https://raw.githubusercontent.com/imvinay10/Movie-App/main/Screenshot.png",
+        tags: ["ReactJs", "JavaScript", "HTML", "CSS", "JSON", "APIs"],
+        category: "web app",
+        github: "https://github.com/imvinay10/Movie-App",
+        webapp: "https://movie-searching-webapp.vercel.app/",
+    },
     {
         id: 0,
         title: "3D Interactive Sphere Project with Three.js in React",
