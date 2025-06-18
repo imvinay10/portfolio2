@@ -25,6 +25,7 @@ export const skills = [
                 name: "CSS",
                 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
             },
+
             {
                 name: "JavaScript",
                 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
@@ -40,6 +41,14 @@ export const skills = [
             {
                 name: "Material UI",
                 image: "data:image/png;base64,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",
+            },
+            {
+                name: "Redux",
+                image: "https://toppng.com/uploads/preview/redux-logo-11609374482s00xntsq98.png",
+            },
+            {
+                name: "Tailwind CSS",
+                image: "https://code.dlang.org/packages/tailwind-d/logo?s=650228a573eaa51f8ceded68",
             },
             {
                 name: "React Bootstrap",
@@ -252,26 +261,14 @@ export const projects = [
         date: "May 2025",
         description:
             "Velocity Runner is a fully browser-based 3D endless runner game built entirely from scratch using React (TypeScript) and Three.js, without relying on any external game engine. The project demonstrates how modern frontend frameworks can be combined with WebGL to create immersive, high-performance interactive experiences directly in the browser. It features smooth third-person player controls, physics-based jumping, and dynamic camera behavior, all powered by a modular and scalable architecture. Character animations are handled using GLTFLoader and AnimationMixer, allowing for fluid transitions between running and jumping. Procedural enemy generation and real-time collision detection bring the game world to life, while custom lighting and atmospheric effects add depth and visual polish. Velocity Runner serves as a creative exploration into the possibilities of Web3D, proving that frontend development can go far beyond forms and dashboards to power real-time, interactive storytelling, data visualization, and next-gen product experiences.",
-        image: require('../images/project/velocity runner.png'),
+        image: require("../images/project/velocity runner.png"),
         tags: ["React", "Three.js", "TypeScript", "WebGL", "GLTF", "CSS"],
         category: "web app",
         github: "https://github.com/imvinay10/velocity-runner",
         webapp: "https://collition-runner.vercel.app/",
     },
     {
-        id: 15,
-        title: "React Movie App",
-        date: "Feb 2024 - Feb 2024",
-        description:
-            "My Movie App powered by ReactJS and OMDBAPI! This dynamic web application lets you effortlessly search for movies by their titles and fetches comprehensive information about each movie from OMDBAPI. With a user-friendly interface, you can explore details like the plot, cast, ratings, release year, and more. Clicking on a movie poster reveals detailed information, allowing you to dive deeper into your favorite films. Experience seamless movie browsing and discovery with this intuitive and engaging Movie App!",
-        image: "https://raw.githubusercontent.com/imvinay10/Movie-App/main/Screenshot.png",
-        tags: ["ReactJs", "JavaScript", "HTML", "CSS", "JSON", "APIs"],
-        category: "web app",
-        github: "https://github.com/imvinay10/Movie-App",
-        webapp: "https://movie-searching-webapp.vercel.app/",
-    },
-    {
-        id: 0,
+        id: 1,
         title: "3D Interactive Sphere Project with Three.js in React",
         date: "Jan 2025",
         description:
@@ -281,6 +278,18 @@ export const projects = [
         category: "web app",
         github: "https://github.com/imvinay10/ThreeJS-First",
         webapp: "https://three-js-first-planet.vercel.app/",
+    },
+    {
+        id: 1,
+        title: "E-commerce NestJs Based Backend Website",
+        date: "Feb 2025 - Mar 2025",
+        description:
+            "This e-commerce backend project demonstrates my expertise in building scalable, production-ready APIs using Node.js, TypeScript, Sequelize, and Prisma. Designed with clean architecture principles, it features robust data modeling, secure authentication, and efficient database management. By integrating both Sequelize and Prisma, I explored flexible ORM strategies, improving performance and developer experience. This project reflects my ability to design and maintain complex backend systems that power real-world applications—emphasizing scalability, maintainability, and type safety. It also showcases my commitment to writing clean, well-documented code that aligns with industry best practices.",
+        image: "https://images-platform.99static.com/eH9GScf3h8R9DrOwU0w4yp6IPhg=/0x0:960x960/500x500/top/smart/99designs-contests-attachments/60/60733/attachment_60733330",
+        tags: ["NestJs", "JavaScript", "Rest APIs", "JSON", "APIs"],
+        category: "web app",
+        github: "https://github.com/imvinay10/Movie-App",
+        webapp: "https://movie-searching-webapp.vercel.app/",
     },
     {
         id: 15,

@@ -4,8 +4,11 @@ import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, Hero
 import HeroImg from '../../images/HeroImage.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import ResumeModal from '../PDFViewer/ResumeModal';
 
 const HeroSection = () => {
+     const [openResume, setOpenResume] = React.useState(false);
+  const resumeUrl = require('../../assets/VinayMahajan_CV.pdf');
     return (
         <div id="about">
             <HeroContainer>
@@ -27,7 +30,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+            <ResumeButton onClick={() => setOpenResume(true)}>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
@@ -37,6 +40,8 @@ const HeroSection = () => {
                 </HeroInnerContainer>
 
             </HeroContainer>
+                  <ResumeModal open={openResume} onClose={() => setOpenResume(false)} resumeUrl={resumeUrl} />
+
         </div>
     )
 }
